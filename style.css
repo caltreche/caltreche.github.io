@@ -1,0 +1,74 @@
+body {
+  background: url("oldskool.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+  /*padding: -20;*/
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 25px !important;
+}
+
+.nav-link:hover {
+  color: black !important;
+  font-size: 28px !important;
+}
+
+h1{
+	font-size: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+    	font-size: 50px;
+    }
+}
+.head {
+	color: black;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn-warning, 
+.btn-warning:hover,
+.btn-warning:focus {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 18px;
+  padding: 7px 15px;
+  background-color: #e4000f;
+  border-color: #e4000f;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+    	font-size: 13px;
+    }
+}
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 36px !important;
+    }
+}
+
+
+
